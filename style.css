@@ -1,0 +1,130 @@
+@font-face {
+    font-family:Lobster ;
+    src: url(Lobster-Regular.ttf);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #c1cbd6;
+    font-family: Lobster;
+}
+nav {
+    background-color: rgb(185, 185, 15);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h1 {
+    color:rgb(104, 27, 27);
+    font-size: 50px;
+    font-family:Lobster;
+}    
+.p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 39px;
+    text-decoration: underline;
+    color: rgb(104, 27, 27);
+    margin-bottom: 0;
+}
+.choose {
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(104, 27, 27);
+}
+
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.choice {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+.choice:hover {
+    box-shadow: 0 0 5px 5px rgb(185, 185, 15);
+    cursor: pointer;
+  
+}
+.vertical{
+    border-left: 1px solid rgb(78, 74, 74);
+    height: 170px;
+}
+.vertical-2{
+    border-left: 1px solid rgb(104, 27, 27);
+    height: 60px;
+
+}
+.span{
+    float: right;
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scoreboard {
+    margin: 20px auto;
+    display: flex;
+    width: 450px;
+    background-color:rgb(185, 185, 15);
+    padding:  10px ; 
+    border: 2px solid rgb(104, 27, 27) ;
+    border-radius: 4px;
+}
+.scoreboard div{
+    font-size: 25px;
+}
+.vertical-sb{
+    
+    border-left: 2px solid rgb(104, 27, 27);
+    height: 60px;
+}
+   
+.games{
+    display: flex;
+   justify-content: center;
+}
+
+.score{
+    width: 35%;
+    color:rgb(104, 27, 27) ;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+.round{
+    font-weight: bold;
+    font-size: 20px;
+}
+.sb{
+    text-decoration: underline;
+   display: flex;
+   justify-content: center;
+    font-size: 30px;
+    margin-right: 100px;
+    color:rgb(104, 27, 27) ;
+   
+}
+.result{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 28px;
+}
+
+    
+
