@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors Game</title>
+</head>
+<nav>
+    <h1>Rock Paper Scissors</h1>
+</nav>
+<body>
+    <div>
+        <h2 class="p">Play Game</h2>
+    </div>
+    <div  class="board">
+         <p class="sb">Score Board</p>
+    </div>
+    <hr>
+    
+    <div class="scoreboard">   
+        
+        <div class="score">Player :<span id="player-1-score" class="span">0</span></div>
+        <div class="vertical-sb"></div>
+        <div class="score">computer:<span id="computer-score" class="span">0</span></div>
+        <div class="vertical-sb"></div>
+        <div class="score">draw:<span id="draw-score" class="span">0</span></div>        
+    </div>
+    <div class="games">
+        <p class="round">Number of games played: <span id="gen-count"></span></p>
+    </div>
+    <div class="result">
+        <p>Player1: <span id="player-1-choice"></span></p>
+        <p>Computer: <span id="computer-choice"></span></p>
+        <p>result: <span id="result"></span></p>
+    </div>
+    <hr>
+    <div>
+        <p class="choose"><b>CHOOSE:</b></p>
+    </div>
+    <div class="choices">
+        <div>
+            <img id="rock" class="choice" src="rock.png" alt=""><br>
+            <p class="text"><b>ROCK</b></p>
+        </div>
+        <div class="vertical"></div>
+        <div>
+            <img id="paper" class="choice" src="paper.png" alt=""><br>
+            <P class="text"><b>PAPER</b></P>
+        </div>
+        <div class="vertical"></div>
+        <div>
+            <img id="scissors" class="choice" src="scissors.png" alt=""><br>
+            <P class="text"><b>SCISSORS</b></P>
+        </div>  
+    </div><br>
+    <hr>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
